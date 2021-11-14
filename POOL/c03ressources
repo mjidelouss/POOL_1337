@@ -1,0 +1,60 @@
+EX 00:
+
+int main()
+{
+	char	s1[10] = "10";
+	char	s2[10] = "5";
+	printf("%d\n",ft_strcmp(s1,s2));
+	return 0;
+}
+
+EX 01:
+
+int main()
+{
+	char	s1[10] = "";
+	char	s2[10] = "";
+	printf("%d",ft_strncmp(s1,s2,2));
+	return 0;
+}
+
+EX 02:
+
+int main ()
+{
+	char src[100] = "WORLD";
+    char dest[100] = "HELLO ";
+    printf("%s", ft_strcat(dest,src));
+	return 0;
+}
+
+EX 03:
+
+int main ()
+{
+	char src[100] = "WORLD";
+    char dest[100] = "HELLO ";
+    printf("%s", ft_strncat(dest,src,3));
+	return 0;
+}
+
+EX 04:
+
+int main ()
+{
+	char str[] = "what a mad world";
+	printf("%s",ft_strstr(str,"w"));
+	return 0;
+}
+
+EX 05:
+
+int main ()
+{
+	char src[10] = "hel";
+	char dest[8] = "lo!";
+	printf("%u\n",ft_strlcat(src,dest,4));
+	printf("%lu",strlcat(src,dest,4));
+	return 0;
+}
+

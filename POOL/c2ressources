@@ -1,0 +1,110 @@
+EX 00:
+
+int main ()
+{
+    char src[100] = "Hello";
+    char dest[100];
+    printf("%s\n", ft_strcpy(dest,src));
+    return 0;
+}
+
+EX 01:
+
+int main ()
+{
+	char src[100] = "hell no!";
+	char dest[4];
+	printf ("%s\n",ft_strncpy(dest,src,4));
+	return 0;
+}
+
+EX 02:
+
+int main ()
+{
+	char	str[100] = "";
+	printf("%d",	ft_str_is_alpha(str));
+	return 0;
+}
+
+EX 03 :
+
+int main ()
+{
+	char	str[100] = "";
+	printf("%d",ft_str_is_numeric(str));
+	return 0;
+}
+
+EX 04:
+
+int main ()
+{
+	char	str[100] = "";
+	printf("%d",ft_str_is_lowercase(str));
+	return 0;
+}
+
+EX 05:
+
+int main ()
+{
+	char	str[100] = "";
+	printf("%d",ft_str_is_uppercase(str));
+	return 0;
+}
+
+EX 06:
+
+int main ()
+{
+	char	str[100] = "";
+	printf("%d",ft_str_is_printable(str));
+	return 0;
+}
+
+EX 07:
+
+int main ()
+{
+	char	str[100] = "";
+	printf("%s",ft_strupcase(str));
+	return 0;
+}
+
+EX 08:
+
+int main ()
+{
+	char	str[100] = "THE WALKING DEAD";
+	printf("%s",ft_strlowcase(str));
+	return 0;
+}
+
+EX 09:
+
+int main ()
+{
+	char	str[100] = "salut, Comment tu vas ? 42mots quarante-deux; cinquante+et+un";
+	printf("%s",ft_strcapitalize(str));
+	return 0;
+}
+
+EX 10 :
+
+int main ()
+{
+	char src[100] = "";
+	char dest[4];
+	printf ("%d\n",ft_strlcpy(dest,src,4));
+	return 0;
+}
+
+EX 11:
+
+int main ()
+{
+	char	str[100] = "Coucou\ntu vas bien ?";
+	ft_putstr_non_printable(str);
+	return 0;
+}

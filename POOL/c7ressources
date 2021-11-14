@@ -1,0 +1,56 @@
+EX 00:
+
+int main()
+{
+	char src[] = "Hamid";
+	printf("%s",ft_strdup(src));
+	return 0;
+}
+
+EX 01:
+
+int main()
+{
+	int	i;
+	int	j;
+
+	i = 1;
+	while (i < 4)
+	{
+		printf("%d",*ft_range(i ,4));
+		i++;
+	}
+	return 0;
+}
+
+EX 02:
+
+int main ()
+{
+	int a;
+	int b;
+	a = 0;
+	b = 0;
+	int *t[5];
+	int min = 0;
+	int max = 5;
+	int len;
+	len = max - min;
+	printf("%d\n",ft_ultimate_range(t,min,max));
+	while (a < len)
+	{
+		printf("%d\n",t[0][b]);
+		a++;
+		b++;
+	}
+	return 0;
+}
+
+EX 03:
+
+int main ()
+{
+	char *str[3] = {"go","fishing","asshole"};
+	printf("%s",ft_strjoin(3,str,";_+;"));
+	return 0;
+}

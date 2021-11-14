@@ -1,0 +1,17 @@
+EX 03:
+
+int main ()
+{
+	char str[]= "---+-+12b34ab567";
+	printf("%d",ft_atoi(str));
+	return 0;
+}
+
+
+EX 04:
+
+int main ()
+{
+	ft_putnbr_base(2147483648, "poneyvif");
+	return 0;
+}
